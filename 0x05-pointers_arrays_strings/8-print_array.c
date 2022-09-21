@@ -19,7 +19,7 @@ void print_array(int *a, int n)
 	i = 0;
 	for (n--; n >= 0; n--, n++)
 	{
-		printf("%d", a[i]);
+		printf("%c", a[i]);
 		if (n > 0)
 		{
 			printf(", ");
