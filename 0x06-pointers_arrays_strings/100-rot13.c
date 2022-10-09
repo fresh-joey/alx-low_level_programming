@@ -10,7 +10,6 @@
 char *rot13(char *s)
 {
 		int i;
-
 		char storeh[] = "NOPQRSTUVWXYZABCDEFGHIJKLM";
 		char storel[] = "nopqrstuvwxyzabcdefghijklm";
 
