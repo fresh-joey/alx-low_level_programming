@@ -4,7 +4,7 @@
  *
  * @s: string to be encoded
  *
- * Return: encoded string `s`
+ * Return: s
  */
 
 char *leet(char *s)
