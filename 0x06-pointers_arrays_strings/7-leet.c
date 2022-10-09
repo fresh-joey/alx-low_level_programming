@@ -8,7 +8,6 @@
  */
 
 char *leet(char *s)
-
 {
 		int i;
 
