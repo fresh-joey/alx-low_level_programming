@@ -33,11 +33,14 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 	}
 
 	if (index == 0)
+	{
 		head = current->next;
 	else if (current->next)
 		hold->next = current->next;
 	else
 		hold->next = NULL;
-											free(current);
+	}
+
+	free(current);
 	return (1);
 }
